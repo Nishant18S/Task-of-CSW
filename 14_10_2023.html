@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<style>
+#image
+{
+display:none;
+}
+button
+{
+border:1px solid blue;
+background-color:lightgray;
+}
+
+</style>
+ <script
+ src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+ <script>
+ $(document).ready(function() {
+ $("#btn").click(function() {
+ $("#image").hide();
+ });
+$("#btn1").click(function() {
+$("#image").show();
+ });
+});
+</script>
+ </head>
+ <body>
+<button id="btn1">Show The Image</button>
+<br><br>
+<div>
+ <img id="image" src="C:\Users\nisha\Downloads\taj.jpg" width="500" height="300">
+
+</div>
+
+ <button id="btn">Hide The Image</button>
+ 
+
+
+ </body>
+</html> 
